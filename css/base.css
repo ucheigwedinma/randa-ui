@@ -1,0 +1,30 @@
+@import url('tokens.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-primary);
+  font-size: var(--text-base);
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  margin-bottom: var(--space-3);
+}
+
+a {
+  color: var(--color-accent-500);
+  text-decoration: none;
+  transition: var(--transition-default);
+}
+
+a:hover {
+  color: var(--color-accent-400);
+}
